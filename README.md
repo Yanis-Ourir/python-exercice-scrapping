@@ -12,7 +12,9 @@ Bienvenue dans cet exercice simple de scraping avec Python et BeautifulSoup ! Da
 
 4. **Exécution du script** : Enregistrez votre script dans un fichier Python (par exemple `scraper.py`) et exécutez-le. Vous devriez voir les titres et les prix des produits affichés dans votre console.
 
-5. **Personnalisation du scraping** : Vous pouvez personnaliser votre script pour scraper d'autres informations à partir de la page, comme les descriptions des produits, les images, etc. Explorez le HTML de la page pour identifier les balises et les classes nécessaires.
+5. **Personnalisation du scraping** : Explorez davantage la page et recherchez d'autres informations intéressantes à scraper, telles que le nombre de reviews, les descriptions des produits, etc. Les balises et les classes nécessaires pourraient être différentes de celles fournies dans l'exemple de script.
+
+6. **Réflexion sur les classes** : Gardez à l'esprit que les classes utilisées dans l'exemple de script ("_title" et "price") ne sont pas forcément les mêmes pour tous les sites Web. Prenez le temps d'inspecter le HTML de la page pour trouver les classes appropriées à scraper.
 
 ## Exemple de Script Python 🖥️
 
@@ -43,4 +45,4 @@ for product in products:
     # Afficher le titre et le prix du produit
     print(f"Titre : {title}, Prix : {price}")
 ```
-Cet exercice vous permettra de vous familiariser avec le scraping de données à l'aide de Python et de BeautifulSoup. Amusez-vous bien ! 😊
+Cet exercice vous permettra de vous familiariser avec le scraping de données à l'aide de Python et de BeautifulSoup. Explorez la page, recherchez d'autres informations intéressantes à scraper et personnalisez votre script en conséquence ! Amusez-vous bien ! 😊
